@@ -7,11 +7,64 @@ body{
 
 li{
     display: inline;
-  
+}
+
+li :hover{
+cursor: pointer;
 
 }
+
+.navbar-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .header{
     text-align: center;
 }
+
+.about-me{
+    text-align: left;
     
+}
+
+  
+
+.work-div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: left;
+    
+}
+
+
+.picture{
+    max-width: 20%;
+    max-height: 20%
+    }
+
+.first-placeholder{
+    max-width: 5%;
+    max-height: 5%;
+    padding: 50px;
+    margin: 50px;
+}
+
+.second{
+    
+}
+   
+
+.Horis-challenged-me{
+    max-width: 20%;
+    max-height: 15%
+
+}
+  
+.footer-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

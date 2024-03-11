@@ -16,11 +16,11 @@
 <body>
     <div class=" navbar container">
     <nav>
-        <ul class="navbar-list";>
-           <li>About Me</li> 
-           <li>Work</li> 
-           <li>Contact Me</li> 
-           <li>Resume</li>
+        <ul class="navbar-list">
+           <li><a href="#about-me">About Me</a></li> 
+           <li><a href="#work">Work</a></li>
+           <li><a href="#contact-me">Contact Me</a></li> 
+           <li><a href="./assets/css/Resume202312150703.pdf" target="_blank">Resume</a></li>
 
         </nav>
     </div>
@@ -28,29 +28,41 @@
   <div class="header"><header><h1>My Profolio</h1></header></div>
 
    <!--About me section -->
-   <div class="About me">
-   <h2>About Me</h2>
-<img src="images/me in yellow.jpg" alt=" a picture of me">
-<P> My name is Yvonne i will be turning 30 this year and i am currently a pharmacy techinian and i am looking for a career change.</P>
-</div>
+   <section id="about-me" class="about-me">
+   <h2 class="About">About Me</h2>
+   <P> My name is Yvonne i am currently a pharmacy techinian and i am looking for a career change.</P>
+<img  class="picture" src="images/me in yellow.jpg" alt=" a picture of me">
+
+   </section>
 
  <!-- work section -->
-<div class="work">
+<section id="work">
 <h2>Work</h2>
-<a href="https://github.com/yvonneewa/Horis-challenged-me">Challenge 1</a>
+<div class="work-div">
+    <img class="Horis-challenged-me" src="./images/challenge-1.png">
+    <a href="https://github.com/yvonneewa/Horis-challenged-me">Challenge 1</a>  
 </div>
 
- <!-- contact footer section-->
-<div class="footer">
+<p>next project</P>
+<div class="first-placeholder"> <input type="image" src="./images/placeholder-one.png">
+</div>
+
+<P>Another Project</P>
+<div class="second"> <input type="image" src="./images/levels.png">
+</div>
+</section>
+
+<!-- contact footer section-->
+<section id="contact-me" class="footer">
 <footer>
 <h2 class="Contact">Contact Me</h2>
 <ul class="footer-list">
     <li>Phone: 555-555-5555</li>
     <li><a href = "mailto: yowantings@gmail.com"> Email</a></li>
-    <li><a href="https://github.com/yvonneewa">github</a></li>
+    <li><a href="https://github.com/yvonneewa" target="_blank">Github</a></li>
 </ul>
 </footer>
-</div>
+</section>
 
 </body>
 </html>
